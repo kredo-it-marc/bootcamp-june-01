@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Typography</title>
+</head>
+<body>
+    <!-- Headings -->
+    <h1>Heading 1 - The most important headline</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6 - The least important headline</h6>
+
+    <hr> <!--horizontal rule - closing tag-->
+    <!-- paragraph -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Quae accusantium sequi ipsam cum excepturi harum pariatur temporibus soluta, odit nemo quia qui a aliquid fugit, officiis illum atque sit laborum distinctio aspernatur neque officia, blanditiis quas animi! Tempore veritatis necessitatibus libero ipsum molestias deserunt accusamus? Amet pariatur a possimus nobis?</p>
+    <!-- <br> => line break, no closing tag -->
+    <hr>
+    <h1>Links</h1>
+    <a href="https://google.com">Click me to go to google</a>
+    <!-- attribute=> adds additional information on the element. found on the opening taf -->
+    <!-- href attributed defines where to redirect when the link is click -->
+    <!-- href holds the url/path -->
+    <hr>
+    <h1>HTML Lists</h1>
+    <h2>Ordered List</h2>
+
+    <ol>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+    </ol>
+    
+    <hr>
+    <h2>Unordered List</h2>
+
+    <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+    </ul>
+
+    <hr>
+    <h2>Nested List</h2>
+    <ol>
+        <li>Fruits
+            <ul>
+                <li>Mango</li>
+                <li>Banana</li>
+            </ul>
+        </li>
+        <li>Desserts
+            <ul>
+                <li>Cake</li>
+                <li>Candy</li>
+            </ul>
+        </li>
+    </ol>
+
+    <hr>
+    <h1>Images</h1>
+    <img src="test.jpg" alt="This shows when the image doesn't load">
+    <!-- src = contains the path/url of the image -->
+    <!-- alt = description of the image. appears on the screen if the image fails to load -->
+
+    <!-- internet -->
+    <img src="https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" width="300px">
+
+    <!-- from local computer -->
+    <img src="assets/images/aswathy-n-srMHHWCTvcU-unsplash.jpg" alt="" height="300px">
+
+    <hr>
+    <h1>Tables</h1>
+
+    <table border="1">
+        <thead><!--groups heading contents-->
+            <tr><!--defines a table row-->
+                <th>Heading 1</th><!--table header-->
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+        </thead>
+        <tbody><!--groups body contents-->
+            <tr><!--table row-->
+                <td>Data 1</td><!-- table data-->
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>  
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr> 
+        </tbody>
+    </table>
+    
+    <h2>Colspan</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Contact No.</th>
+                <!-- colspan defines how many colums this <th> will occupy -->
+                <!-- colspan can be use with td -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bill</td>
+                <td>111-111</td>
+                <td>222-222</td>
+            </tr>
+            <tr>
+                <td>Steeve</td>
+                <td>333-333</td>
+                <td>444-444</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Rowspan</h2>
+    <table border="1">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <td>Bill</td>
+                <td>Steeve</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Contact No.</th>
+                <!-- defines how many rows the <th> will occupy; can be used with <td>-->
+                <td>111-111</td>
+                <td>333-333</td>
+            </tr>
+            <tr>
+                <td>222-222</td>
+                <td>444-444</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
