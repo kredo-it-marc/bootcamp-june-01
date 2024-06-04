@@ -1,0 +1,33 @@
+/* EXTERNAL CSS */
+
+/* UNIVERSAL SELECTOR */
+*{
+    border: 2px dotted gray;
+}
+
+/* ELEMENT SELECTOR */
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* class selector */
+.class-name{
+    text-transform: uppercase;
+    color: greenyellow;
+}
+
+/* ID SELEctor */
+#id-name{
+    text-transform: lowercase;
+    background-color: hotpink;
+    color: gray;
+}
+
+span{
+    color: darkblue;
+}
+
+span{
+    color: darkorange;
+}
