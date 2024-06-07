@@ -97,3 +97,23 @@ div.position-fixed{
 .display-none{
     display: none;
 }
+
+.parent-element{
+    height: 100px;
+    background-color: cadetblue;
+    position: relative;
+    z-index: -2;
+}
+
+.box
+{
+    width: 100px;
+    height: 200px;
+    background-color: crimson;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    z-index: -1;
+}
+
+/* z-index will NOT work on position static */
