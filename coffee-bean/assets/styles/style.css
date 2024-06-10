@@ -22,3 +22,140 @@ p{
     width: 100%;
     margin: auto;
 }
+
+/* NAVBAR */
+.nav{
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+}
+
+.nav h1{
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+}
+
+.nav h1 a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #96746b;
+}
+
+.nav ul{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 1em;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #312a26;
+}
+
+/* (2) Banner area */
+.banner {
+    width: 100%;
+    height: 670px;
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 7.5%;
+    transform:translateY(-50%)
+}
+
+.banner-text h2 {
+    color: #c7a17a;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.banner-text h2 span {
+    color: #96746b;
+}
+
+.banner-text p {
+    color: #fff;
+}
+
+.banner-text a {
+    text-decoration: none;
+    padding: 1em;
+    background-color: #312a26;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+/* (3) Ads area */
+
+.ads {
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+}
+
+.ads-items {
+    width: 48.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+/* add class name to <div class="ads-items ads-item#"> in HTML --> to add different images*/
+.ads-item1 {
+    margin-right: 3%;
+    background-image: url("../images/ads-img1.jpg");
+}
+
+.ads-item2 {
+    background-image: url("../images/ads-img2.jpg");
+}
+
+.ads-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 40%;
+}
+
+.ads-text h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312a26;
+}
+
+.ads-text a {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-shadow: 3px 3px 5px #312a26;
+}
